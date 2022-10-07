@@ -1,0 +1,8 @@
+psycopg2-binary
+sqlalchemy
+PyYAML
+geoalchemy2
+geopandas
+loguru
+shapely
+pandas

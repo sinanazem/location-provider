@@ -1,0 +1,8 @@
+
+# ------------------------- Data Warehouses --------------
+mydb:
+  host: localhost
+  password: xxx
+  user: postgres
+  dbname: myawesomedb
+
