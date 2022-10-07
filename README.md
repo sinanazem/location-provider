@@ -1,4 +1,4 @@
-# Kilid Global Location Provider
+# Global Location Provider
 
 This project has been designed to use as a starting point for developers and data scientists we'll collaborate to 
 expand location data to several countries all around the world.
@@ -50,20 +50,6 @@ We would have one branch for each country we are going to expand location data t
 into the `master` branch. So make sure you are on the correct branch.
 
 
-### Database creation
-
-Go through the steps bellow to create a postgresql database on you local machine and create appropriate schemas and 
-tables required for this project.
-1. Create a postgres database on you local pc/laptop/machine/whatever you are using, and name it anything you like, say `mydb`
-2. From the previous 
-[Dependencies](https://gitlab.com/kilid-com/data-factory/location-provider/-/blob/master/README.md#L20) part, 
-you probably made a user/password for your postgres database, otherwise make one.
-3. Put these credentials on the `config/db_configs.yaml` file. **CAUTION** you **MUST** never commit your credentials 
-on this file.
-4. Run the `db/create.py` file in using the command bellow or using your IDE interface to create the sample tables 
-in your local DB. After running the code, you must have 4 tables named: `country`, `location`, `location_hierarchy` 
-and `location_type`.
-5. Connect to you local db using the database IDE (Dbeaver) to see the tables and data.
 
 ## Workflow
 * Use the `src` directory if you want to add any additional file required for your codes and pipeline
