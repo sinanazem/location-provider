@@ -1,4 +1,5 @@
 # Global Location Provider
+<img src="https://pngimg.com/uploads/world_map/world_map_PNG28.png" width=950>
 
 This project has been designed to use as a starting point for developers and data scientists we'll collaborate to 
 expand location data to several countries all around the world.
